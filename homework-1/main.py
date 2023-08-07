@@ -1,8 +1,12 @@
+from pprint import pprint
+
 from src.channel import Channel
 
 if __name__ == '__main__':
-    moscowpython = Channel('UC-OVMPlMA3-YCIeg4z5z23A')
+    moscowpython = Channel('UCvY32gEGM_qO2y038IJEguA')
     moscowpython.print_info()
+
+
 
     """
 {
