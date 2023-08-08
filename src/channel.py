@@ -49,7 +49,7 @@ class Channel:
             "view_count": self.view_count
         }
 
-        with open(file_path, 'w') as json_file:
+        with open(file_path, 'a') as json_file:
             json.dump(data, json_file, indent=2, ensure_ascii=False)
 
     def print_info(self) -> None:

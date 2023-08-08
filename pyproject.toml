@@ -8,6 +8,9 @@ packages = [{include = "youtube_analytics_project"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+coverage = "^7.2.7"
 
 
 [build-system]
