@@ -11,6 +11,8 @@ python = "^3.8"
 pytest = "^7.4.0"
 pytest-cov = "^4.1.0"
 coverage = "^7.2.7"
+google-api-python-client = "^2.96.0"
+isodate = "^0.6.1"
 
 
 [build-system]
